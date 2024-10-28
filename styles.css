@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8e1f4;
+    color: #4a0072;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    max-width: 90%; /* Ajuste para telas menores */
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+#message {
+    display: none;
+    font-size: 1.3em;
+    margin: 20px 0;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4a0072;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #37005d;
+}
+
+/* Estilos para telas menores */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.8em; /* Tamanho do texto para títulos */
+    }
+    
+    #message {
+        font-size: 1.2em; /* Tamanho do texto para a mensagem */
+    }
+    
+    button {
+        padding: 10px 20px; /* Tamanho do botão */
+        font-size: 0.9em; /* Tamanho do texto do botão */
+    }
+}
